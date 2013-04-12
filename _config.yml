@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Cloud Monkey 
-tagline: Site Tagline
+tagline:  
 author :
   name : benn cs 
   email : benn.cs@fengruyi.com
@@ -113,7 +113,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
+    provider : youdao 
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cloud Monkey 
-tagline: Site Tagline
+tagline: 
 ---
 {% include JB/setup %}
 <ul class="posts">
