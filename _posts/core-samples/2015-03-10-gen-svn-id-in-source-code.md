@@ -8,7 +8,8 @@ tags : [svn,c]
 
 #gen svn id in source code
 ```c
-#!/bin/sh
+
+ #!/bin/sh
 export LANG=en_US.utf8
 
 svn_home_str=`svn info | grep "Working Copy Root Path" | awk '{print $5}'`
@@ -35,5 +36,6 @@ echo -e "/*	Copyright 2015 MixData Inc.
 
 #endif
 " > $svn_home_str/src/dsp_build_version.h
+
 ```
 	
