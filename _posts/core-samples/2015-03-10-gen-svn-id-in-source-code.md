@@ -7,7 +7,7 @@ tags : [svn,c]
 {% include JB/setup %}
 
 #gen svn id in source code
-
+```c
 #!/bin/sh
 export LANG=en_US.utf8
 
@@ -35,4 +35,5 @@ echo -e "/*	Copyright 2015 MixData Inc.
 
 #endif
 " > $svn_home_str/src/dsp_build_version.h
+```
 	
